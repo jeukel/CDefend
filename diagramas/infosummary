@@ -1,0 +1,29 @@
+Diagnostic project scheme .
+
+name : CDefend 
+
+There are gonna be the next objects:
+	Player
+		represented as a space ship ( or similar)
+		Actions :
+			shoot
+			jump / fly ( jump with the "up" key and descend faster with the "down" key)
+			move (forward,backwards)
+			die (if it collides with an obstacle , enemy , ammo , upper part of the map , ...)
+|			collide (it will know when it crashed against something)
+		Attributes:
+			current weapon
+			status if it is flying
+			current health points
+			
+	Game 
+	Weapon
+	Ammo
+	ground enemies
+	target enemies ( these are going to follow the player)
+	boss ( appears at the end of eash level)
+	static obstacles
+	moving obstacles
+	"trophies" (needed to pass a level)
+	level ( there are gonna be n levels) (the difficulty will just advance exponencially)
+

@@ -1,14 +1,14 @@
 #include "SimpleList.h"
 
 class parentObjectInterface{
-private:
+protected:
 	int resistance;
 	int healthpoints;
 	int height;
 	int width;
 	SimpleList coords;
 	int puntaje;
-
+private:
 	void die();
 public:
 	int getScore();
